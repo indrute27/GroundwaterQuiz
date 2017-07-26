@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.groundwaterquiz.MainActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitEnd"
+            android:src="@drawable/water" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q1"
+                android:textSize="26dp"
+                android:layout_margin="30dp"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/Answer1"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/A1_1"/>
+
+                <RadioButton
+                    android:id="@+id/Answer2"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/A1_2"/>
+
+                <RadioButton
+                    android:id="@+id/Answer3"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/A1_3"/>
+
+                <RadioButton
+                    android:id="@+id/Answer4"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/A1_4"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:id="@+id/bottomButton"
+                android:onClick="submitButton"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="@string/buttonText"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:layout_gravity="center_horizontal"
+                android:indeterminate="false"
+                android:progress="0"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

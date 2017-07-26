@@ -1,0 +1,100 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Groundwater Quiz</string>
+    <string name="buttonText">Submit</string>
+
+    <string name="Q1">Which of the following reservoirs contains the most water?</string>
+    <string name="A1_1">atmosphere</string>
+    <string name="A1_2">biosphere</string>
+    <string name="A1_3">groundwater</string>
+    <string name="A1_4">lakes and rivers</string>
+
+    <string name="Q2">How much of the Earth\'s water is stored in underground aquifers?</string>
+    <string name="A2_1">less than 1%</string>
+    <string name="A2_2">about 5%</string>
+    <string name="A2_3">about 10%</string>
+    <string name="A2_4">about 20%</string>
+
+    <string name="Q3">What is the process by which water enters the small pore spaces between particles in soil or rocks</string>
+    <string name="A3_1">transpiration</string>
+    <string name="A3_2">inflitration</string>
+    <string name="A3_3">precipation</string>
+    <string name="A3_4">sublimation</string>
+
+    <string name="Q4">Which of the following terms is a measure of the amount of water vapor in the air as a proportion of the maximum amount the air could hold at the same temperature?</string>
+    <string name="A4_1">dew point</string>
+    <string name="A4_2">sublimation point</string>
+    <string name="A4_3">evaporation rate</string>
+    <string name="A4_4">relative humidity</string>
+
+    <string name="Q5">The percentage of a rock\'s total volume that is taken up by pore space is called the</string>
+    <string name="A5_1">permeability</string>
+    <string name="A5_2">recharge</string>
+    <string name="A5_3">aquifer</string>
+    <string name="A5_4">porosity</string>
+
+    <string name="Q6">Permeability is</string>
+    <string name="A6_1">the ability of a solid to allow fluids to pass through</string>
+    <string name="A6_2">the process by which plants release water vapor to the atmosphere</string>
+    <string name="A6_3">the amount of water vapor in the air relative to the maximum amount of water vapor the air can hold</string>
+    <string name="A6_4">the percentage of pore space in the rock</string>
+
+    <string name="Q7">The best groundwater reservoirs have</string>
+    <string name="A7_1">low permeability and low porosity</string>
+    <string name="A7_2">low permeability and high porosity</string>
+    <string name="A7_3">high permeability and low porosity</string>
+    <string name="A7_4">high permeability and high porosity</string>
+
+    <string name="Q8">The ability of an Earth material to transmit water is a measure of its</string>
+    <string name="A8_1">porosity</string>
+    <string name="A8_2">aquifer characteristics</string>
+    <string name="A8_3">chemical cement</string>
+    <string name="A8_4">permeability</string>
+
+    <string name="Q9">The lowering effect on the water table about the base of the well stem is called a(n)</string>
+    <string name="A9_1">aquiclude</string>
+    <string name="A9_2">artesian surface </string>
+    <string name="A9_3">cone of depression</string>
+    <string name="A9_4">speleothem</string>
+
+    <string name="Q10">A local water table positioned above the regional water table is said to be</string>
+    <string name="A10_1">stranded</string>
+    <string name="A10_2">perched</string>
+    <string name="A10_3">displaced</string>
+    <string name="A10_4">depressed</string>
+
+    <string name="Q11">Which of the following statements about the water table is false</string>
+    <string name="A11_1">the water table changes when discharge is not balanced by recharge</string>
+    <string name="A11_2">the water table is generally flat</string>
+    <string name="A11_3">the water table is above the land surface in lakes</string>
+    <string name="A11_4">the water table is depressed near high volume pumping wells</string>
+
+    <string name="Q12">The boundary between the saturated zone and the unsaturated zone is called the</string>
+    <string name="A12_1">water table</string>
+    <string name="A12_2">aquifer</string>
+    <string name="A12_3">aquiclude</string>
+    <string name="A12_4">porosity</string>
+
+    <string name="Q13">The infiltration of water into the subsurface is the</string>
+    <string name="A13_1">influent</string>
+    <string name="A13_2">effluent</string>
+    <string name="A13_3">discharge</string>
+    <string name="A13_4">recharge</string>
+
+    <string name="Q14">What is the term for a relatively impermeable geologic unit?</string>
+    <string name="A14_1">an artesian</string>
+    <string name="A14_2">an aquiclude </string>
+    <string name="A14_3">an aquifer</string>
+    <string name="A14_4">none of these</string>
+
+    <string name="Q15">Excessive pumping in relation to recharge can cause</string>
+    <string name="A15_1">the water table to decline</string>
+    <string name="A15_2">a cone of depression to form </string>
+    <string name="A15_3">the well to go dry</string>
+    <string name="A15_4">all of these</string>
+
+    <string name="FinalBad">Ouch! You don\'t know very much about groundwater! \nYour score is: <xliff:g id="scoreText" example="60">%s</xliff:g></string>
+    <string name="FinalOk">Wow really? I\'m pretty sure you can do better. \nYour score is: <xliff:g id="scoreText" example="60">%s</xliff:g></string>
+    <string name="FinalGood">Not bad! \nYour score is: <xliff:g id="scoreText" example="60">%s</xliff:g></string>
+    <string name="FinalGreat">You\'re a groundwater warrior!!! Good job! \nYour score is: <xliff:g id="scoreText" example="60">%s</xliff:g></string>
+
+</resources>
